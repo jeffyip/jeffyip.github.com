@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-
 <div id="post">
-  {{ content }}
+{{ content }}
 </div>
 
 {% if site.related_posts %}
@@ -15,4 +14,4 @@ layout: default
       {% endfor %}
     </ul>
   </div>
-{% end %}
+{% endif %}
