@@ -2,10 +2,11 @@
 layout: post
 title: First Post
 ---
+<div id="post">
+  {{ page.title }}
+  ================
 
-{{ page.title }}
-================
+  <p class="meta">03 Sept 2011 - San Francisco</p>
 
-<p class="meta">03 Sept 2011 - San Francisco</p>
-
-This is the first post.  Testing.
+  This is the first post.  Testing.
+</div>
