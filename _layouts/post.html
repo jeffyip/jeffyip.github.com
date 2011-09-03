@@ -5,7 +5,7 @@ layout: default
 {{ content }}
 </div>
 
-{% if site.related_posts %}
+{% if site.related_posts.quantity > 0 %}
   <div id="related">
     <h2>Related Posts</h2>
     <ul class="posts">
